@@ -1,5 +1,5 @@
 # xtract
-xtract text from html, trim spaces for each token by default (Use xtract)
+xtract text from html
 
 ## Usage:
 
