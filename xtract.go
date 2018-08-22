@@ -32,6 +32,7 @@ func PageLim(url string, lim int) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	defer rs.Body.Close()
 	return xtract(rs.Body, lim), err
 }
 
